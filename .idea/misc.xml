@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable-v24/edittextround2.xml" value="0.2025" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable-v24/edittextround3.xml" value="0.1855" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable-v24/edittextroundblue.xml" value="0.1855" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable-xxhdpi/dialogboxno.xml" value="0.2025" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable-xxhdpi/dialogboxyes.xml" value="0.2025" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable-xxhdpi/harga_bg.xml" value="0.2025" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable/edittextround.xml" value="0.2" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable/false_answer_box.xml" value="0.216" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable/right_answer_box.xml" value="0.216" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable/rightanswerbox.xml" value="0.216" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/drawable/timerbox.xml" value="0.2025" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/font/melanie.xml" value="0.23257802479692177" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout-v26/fragment_theory.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/achievement_list.xml" value="0.20778110303548525" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/activity_gameplay.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/activity_home_admin.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/activity_quiz.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/activity_splash_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/activity_theory.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/avatar_list.xml" value="0.20778110303548525" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/avatardialogbox.xml" value="0.4" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/buy_dialog_box.xml" value="0.264" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/detailachievement_list.xml" value="0.264" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_achievement.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_course.xml" value="0.2" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_detailachievement.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_editavatar.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_first.xml" value="0.2" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_game.xml" value="0.2" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_home2.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_learn.xml" value="0.2" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_module.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_postgame.xml" value="0.10196406184705391" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_quiz.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_rank.xml" value="0.2" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_second.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_shop.xml" value="0.2" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/fragment_theory.xml" value="0.176" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/level_list.xml" value="0.20778110303548525" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/rank_list.xml" value="0.264" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/SurviveProject/app/src/main/res/layout/shop_list.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/TestKotlin/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/TestKotlin/app/src/main/res/layout/activity_home_admin.xml" value="0.16" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/TestKotlin/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/TestKotlin/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/TestKotlin/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/TestKotlin/app/src/main/res/layout/fragment_first.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Niko/AndroidStudioProjects/TestKotlin/app/src/main/res/layout/fragment_second.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

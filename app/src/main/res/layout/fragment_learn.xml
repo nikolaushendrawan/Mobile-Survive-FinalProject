@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wavebg"
+    tools:context=".LearnFragment">
+
+    <ImageView
+        android:id="@+id/koin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_31sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:background="@drawable/ps_coin"
+
+        app:layout_constraintRight_toLeftOf="@id/jumlahkoinlearn"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/jumlahkoinlearn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:fontFamily="@font/fontgame"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/coursetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:textSize="@dimen/_30sdp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/brussels"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/coursedesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Overview"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@+id/coursetitle"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardlearnhome"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@+id/coursedesc"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:cardBackgroundColor="#38ACEC"
+        app:layout_constraintRight_toRightOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:text="Learn"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_45sdp"
+            android:fontFamily="@font/brussels"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/belajar2"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@id/title1"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardquizhome"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@+id/cardlearnhome"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:cardBackgroundColor="#38ACEC"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:text="Quiz"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_45sdp"
+                android:fontFamily="@font/brussels"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kuis"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/title2"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_20sdp"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

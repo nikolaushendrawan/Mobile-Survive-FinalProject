@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wavebg"
+    tools:context=".ProfileFragment">
+
+
+    <ImageView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:src="@drawable/backbutton2"
+        android:id="@+id/backbtnprofile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardprofile"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_185sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/logoProfile"
+                android:layout_width="@dimen/_75sdp"
+                android:layout_height="@dimen/_75sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <TextView
+                android:id="@+id/namaprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="35sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/melanie"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintTop_toBottomOf="@id/logoProfile"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <TextView
+                android:id="@+id/judulskor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score :"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/fontgame"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                app:layout_constraintTop_toBottomOf="@id/namaprofile"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/skorprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/fontgame"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                app:layout_constraintTop_toBottomOf="@id/namaprofile"
+                app:layout_constraintLeft_toRightOf="@id/judulskor"
+                />
+
+            <ImageView
+                android:id="@+id/koin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:background="@drawable/ps_coin"
+                app:layout_constraintLeft_toRightOf="@id/skorprofile"
+                app:layout_constraintRight_toLeftOf="@id/jumlahkoinprofile"
+                app:layout_constraintTop_toBottomOf="@id/namaprofile">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/jumlahkoinprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:fontFamily="@font/fontgame"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:layout_constraintLeft_toRightOf="@id/koin"
+                app:layout_constraintTop_toBottomOf="@id/namaprofile">
+
+            </TextView>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardBadge"
+        android:layout_width="0dp"
+        android:background="@drawable/edittextround"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        app:layout_constraintTop_toBottomOf="@id/cardprofile"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleachievement"
+        android:text="Achievement"
+        android:textColor="@color/black"
+        android:fontFamily="@font/brussels"
+        android:textSize="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        app:layout_constraintTop_toBottomOf="@id/titleachievement"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:listitem="@layout/achievement_list"
+        android:id="@+id/achievementrecyler"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#7066F4"
+        android:text="Logout"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/cardBadge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

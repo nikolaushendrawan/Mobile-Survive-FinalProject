@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/avatarcardprofile"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/WhiteBlue"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/_41sdp"
+            android:layout_height="@dimen/_41sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/avatarimgprofile"
+            android:src="@drawable/defaultuser"
+            android:layout_marginLeft="@dimen/_10sdp"/>
+
+        <TextView
+            android:id="@+id/avatarnameprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avatar Name"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_20sdp"
+            app:layout_constraintLeft_toRightOf="@id/avatarimgprofile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:background="@drawable/harga_bg"
+            android:layout_marginRight="@dimen/_5sdp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/cardScore">
+
+            <TextView
+                android:id="@+id/avataruse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use"
+                android:fontFamily="@font/fontgame"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="@dimen/_20sdp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

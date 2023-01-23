@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homefragment">
+
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.example.SurviveProject.HomeFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homefragment_to_learngragment"
+            app:destination="@id/learnfragment" />
+        <action
+            android:id="@+id/action_homefragment_to_rankFragment"
+            app:destination="@id/rankFragment" />
+        <action
+            android:id="@+id/action_homefragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homefragment_to_shopFragment"
+            app:destination="@id/shopFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/learnfragment"
+        android:name="com.example.SurviveProject.LearnFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_learn">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/homefragment" />
+        <action
+            android:id="@+id/action_learnfragment_to_courseFragment"
+            app:destination="@id/courseFragment" />
+        <action
+            android:id="@+id/action_learnfragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rankFragment"
+        android:name="com.example.SurviveProject.RankFragment"
+        android:label="fragment_rank"
+        tools:layout="@layout/fragment_rank" >
+        <action
+            android:id="@+id/action_rankFragment_to_homefragment"
+            app:destination="@id/homefragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.SurviveProject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_editAvatarFragment"
+            app:destination="@id/editAvatarFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_homefragment"
+            app:destination="@id/homefragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_detailachievementFragment"
+            app:destination="@id/detailachievementFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="com.example.SurviveProject.CourseFragment"
+        android:label="fragment_course"
+        tools:layout="@layout/fragment_course" />
+    <fragment
+        android:id="@+id/shopFragment"
+        android:name="com.example.SurviveProject.ShopFragment"
+        android:label="fragment_shop"
+        tools:layout="@layout/fragment_shop" />
+    <fragment
+        android:id="@+id/editAvatarFragment"
+        android:name="com.example.SurviveProject.EditAvatarFragment"
+        android:label="fragment_editavatar"
+        tools:layout="@layout/fragment_editavatar" >
+        <action
+            android:id="@+id/action_editAvatarFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.SurviveProject.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" />
+    <fragment
+        android:id="@+id/detailachievementFragment"
+        android:name="com.example.SurviveProject.DetailachievementFragment"
+        android:label="fragment_detailachievement"
+        tools:layout="@layout/fragment_detailachievement" >
+        <action
+            android:id="@+id/action_detailachievementFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+</navigation>
